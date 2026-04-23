@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NabraTTS</string>
+    <string name="tts_service_label">NabraTTS</string>
+    <string name="settings">Ayarlar</string>
+    <string name="enter_text">Okunacak metni girin</string>
+    <string name="speak">Konuş</string>
+    <string name="stop">Durdur</string>
+    <string name="enable_engine">Motoru etkinleştir</string>
+    <string name="select_voice">Ses seçin</string>
+    <string name="pace">Konuşma hızı</string>
+    <string name="pitch">Ses tonu</string>
+    <string name="denoise">Gürültü azaltma</string>
+    <string name="vowelizer">Otomatik sesli harf (Shakkelha)</string>
+    <string name="save">Kaydet</string>
+    <string name="about">NabraTTS Hakkında</string>
+    <string name="voice_default">Varsayılan ses</string>
+    <string name="voice_arabic_1">نَوّار</string>
+    <string name="voice_arabic_2">قَيس</string>
+    <string name="voice_arabic_3">رُقَيَّة</string>
+    <string name="voice_arabic_4">زَيْنَب</string>
+
+    <string name="nav_drawer_label">Yan menü</string>
+    <string name="nav_drawer_open">Yan menüyü aç</string>
+    <string name="nav_drawer_close">Yan menüyü kapat</string>
+
+    <string name="about_description">NabraTTS, Planet Blind Tech ekibi tarafından geliştirilen ve şu anda Nipponjo TTS Arabic modelini destekleyen açık kaynaklı bir metin okuma hizmetidir.</string>
+    <string name="btn_youtube">Bizi YouTube\'da takip edin</string>
+    <string name="btn_youtube_desc">Planet Blind Tech YouTube kanalını aç</string>
+    <string name="btn_telegram">Bizi Telegram\'da takip edin</string>
+    <string name="btn_telegram_desc">Planet Blind Tech Telegram kanalını aç</string>
+    <string name="btn_email">Bize ulaşın</string>
+    <string name="btn_email_desc">Planet Blind Tech ekibine e-posta gönder</string>
+
+    <string name="model_management">Model yönetimi</string>
+    <string name="download">İndir</string>
+    <string name="delete">Sil</string>
+    <string name="model_quality">Ses kalitesi</string>
+    <string name="quality_22k">22050 Hz (Standart kalite)</string>
+    <string name="quality_44k">44100 Hz (Yüksek kalite)</string>
+    <string name="models_missing">Modeller bulunamadı. Başlamak için indirin.</string>
+    <string name="downloading_models">Modeller indiriliyor…</string>
+    <string name="download_complete">İndirme başarıyla tamamlandı.</string>
+    <string name="download_error">Modeller indirilirken hata oluştu.</string>
+    <string name="choose_quality">Başlamak için istediğiniz kaliteyi seçin:</string>
+    <string name="status_downloaded">İndirildi</string>
+    <string name="status_missing">Eksik</string>
+    <string name="select_model">Model seçin</string>
+
+    <!-- Dictionary -->
+    <string name="dictionary">Sözlük</string>
+    <string name="dict_search_hint">Ara…</string>
+    <string name="dict_add">Giriş ekle</string>
+    <string name="dict_edit">Düzenle</string>
+    <string name="dict_delete">Sil</string>
+    <string name="dict_cancel">İptal</string>
+    <string name="dict_original">Yanlış terim</string>
+    <string name="dict_replacement">Düzeltme</string>
+    <string name="dict_empty">Henüz sözlük girişi yok.\nBir tane oluşturmak için \"Giriş ekle\"ye dokunun.</string>
+</resources>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/settings_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:title="@string/settings"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Enable Engine Button (moved from MainActivity) -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_enable_engine"
+                style="@style/Widget.Nabra.Button.Outlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:text="@string/enable_engine"
+                android:contentDescription="@string/enable_engine"
+                app:icon="@drawable/ic_record_voice"
+                app:iconGravity="textStart" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginBottom="12dp" />
+
+            <!-- Pace -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/pace"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <SeekBar
+                android:id="@+id/seek_pace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="150"
+                android:progress="50"
+                android:contentDescription="@string/pace" />
+
+            <TextView
+                android:id="@+id/tv_pace_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/gray_light"
+                android:text="1.0" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Pitch Add -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/pitch"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <SeekBar
+                android:id="@+id/seek_pitch_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="400"
+                android:progress="200"
+                android:contentDescription="@string/pitch" />
+
+            <TextView
+                android:id="@+id/tv_pitch_add_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/gray_light"
+                android:text="0.0" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Pitch Mul -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/pitch_mul"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <SeekBar
+                android:id="@+id/seek_pitch_mul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="400"
+                android:progress="200"
+                android:contentDescription="@string/pitch_mul_desc" />
+
+            <TextView
+                android:id="@+id/tv_pitch_mul_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/gray_light"
+                android:text="1.0" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Denoise -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/denoise"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <SeekBar
+                android:id="@+id/seek_denoise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="300"
+                android:progress="50"
+                android:contentDescription="@string/denoise" />
+
+            <TextView
+                android:id="@+id/tv_denoise_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/gray_light"
+                android:text="0.005" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Vowelizer -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_vowelizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/vowelizer"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Word by Word -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_word_by_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/word_by_word"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Model Management -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/model_management"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="?attr/colorPrimary"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Quality Selector -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/model_quality"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spinner_quality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_card"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="@string/model_quality" />
+
+            <!-- Model Selector -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/select_model"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spinner_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_card"
+                android:padding="12dp"
+                android:layout_marginBottom="4dp"
+                android:contentDescription="@string/select_model" />
+
+            <!-- Model Status -->
+            <TextView
+                android:id="@+id/tv_model_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_light"
+                android:textSize="13sp"
+                android:gravity="start"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Download / Delete Action Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_model_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/download" />
+
+            <!-- Progress -->
+            <ProgressBar
+                android:id="@+id/pb_download"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressTint="#6A5AE0"
+                android:progressBackgroundTint="#2A2A2A"
+                android:visibility="gone"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/tv_download_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textColor="@color/gray_light"
+                android:gravity="center"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

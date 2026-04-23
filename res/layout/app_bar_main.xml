@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:showIn="@layout/activity_main">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:theme="@style/Theme.Nabra.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/Theme.Nabra.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        android:id="@+id/content"
+        layout="@layout/content_main" />
+
+    <!--
+        Floating Action Button container.
+        layout_gravity="bottom|start":
+          • RTL (Arabic / Persian) → physical RIGHT side  ✓
+          • LTR (all others)       → physical LEFT  side  ✓
+    -->
+    <FrameLayout
+        android:id="@+id/fab_container"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="20dp">
+
+        <!-- Blue ring stroke: always visible, acts as the circular border -->
+        <View
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/fab_ring_stroke"
+            android:clickable="false"
+            android:focusable="false"
+            android:importantForAccessibility="no" />
+
+        <!-- FAB: play icon (IDLE) or stop icon (PLAYING) -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_synth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/speak"
+            app:srcCompat="@drawable/ic_play_arrow"
+            app:backgroundTint="@color/black"
+            app:tint="@color/white"
+            app:rippleColor="@color/nabra_primary"
+            app:borderWidth="0dp"
+            app:maxImageSize="28dp" />
+
+        <!-- Indeterminate spinner: shown only during PROCESSING state -->
+        <ProgressBar
+            android:id="@+id/fab_progress"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/nabra_primary"
+            android:visibility="gone"
+            android:importantForAccessibility="no" />
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

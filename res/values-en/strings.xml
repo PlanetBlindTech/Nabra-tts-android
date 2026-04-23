@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">nabratts</string>
+    <string name="tts_service_label">nabratts</string>
+    <string name="settings">Settings</string>
+    <string name="enter_text">Enter text to speak</string>
+    <string name="speak">Speak</string>
+    <string name="stop">Stop</string>
+    <string name="processing">Processing…</string>
+    <string name="enable_engine">Enable Engine</string>
+    <string name="select_voice">Select Voice</string>
+    <string name="pace">Speech Rate</string>
+    <string name="pitch">Pitch</string>
+    <string name="denoise">Denoise</string>
+    <string name="vowelizer">Auto Vowelization (Shakkelha)</string>
+    <string name="save">Save</string>
+    <string name="about">About Nabra</string>
+    <string name="voice_default">Default Voice</string>
+    <string name="voice_arabic_1">Nawar</string>
+    <string name="voice_arabic_2">Qais</string>
+    <string name="voice_arabic_3">Ruqayya</string>
+    <string name="voice_arabic_4">Zainab</string>
+    <string name="nav_drawer_label">Side Menu</string>
+    <string name="nav_drawer_open">Open Side Menu</string>
+    <string name="nav_drawer_close">Close Side Menu</string>
+    <string name="about_description">NabraTTS is a service that allows using open-source text-to-speech models, developed by the Planet of the Blind technical team, and currently supports the Nipponjo TTS Arabic model.</string>
+    <string name="btn_youtube">Follow us on YouTube</string>
+    <string name="btn_youtube_desc">Open Planet of the Blind channel on YouTube</string>
+    <string name="btn_telegram">Follow us on Telegram</string>
+    <string name="btn_telegram_desc">Open Planet of the Blind channel on Telegram</string>
+    <string name="btn_email">Contact Us</string>
+    <string name="btn_email_desc">Send an email to the Planet of the Blind team</string>
+    <string name="model_management">Model Management</string>
+    <string name="download">Download</string>
+    <string name="delete">Delete</string>
+    <string name="model_quality">Voice Quality</string>
+    <string name="quality_22k">22050 Hz (Standard Quality)</string>
+    <string name="quality_44k">44100 Hz (High Quality)</string>
+    <string name="models_missing">Models missing. Please download to start.</string>
+    <string name="downloading_models">Downloading models…</string>
+    <string name="download_complete">Download completed successfully.</string>
+    <string name="download_error">An error occurred while downloading models.</string>
+    <string name="choose_quality">Choose the desired quality to start:</string>
+    <string name="status_downloaded">Downloaded</string>
+    <string name="status_missing">Missing</string>
+    <string name="mixer_model">Mixer Model (Base)</string>
+    <string name="vocos_model">Vocos Model (Converter)</string>
+    <string name="shakkelha_model">Shakkelha Model (Vowelization)</string>
+    <string name="select_model">Select Model</string>
+
+    <!-- Dictionary -->
+    <string name="dictionary">Dictionary</string>
+    <string name="dict_search_hint">Search…</string>
+    <string name="dict_add">Add Entry</string>
+    <string name="dict_edit">Edit</string>
+    <string name="dict_delete">Delete</string>
+    <string name="dict_cancel">Cancel</string>
+    <string name="dict_original">Incorrect term</string>
+    <string name="dict_replacement">Correction</string>
+    <string name="dict_empty">No dictionary entries yet.\nTap \"Add Entry\" to create one.</string>
+</resources>

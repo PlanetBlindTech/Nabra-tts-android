@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NabraTTS</string>
+    <string name="tts_service_label">NabraTTS</string>
+    <string name="settings">تنظیمات</string>
+    <string name="enter_text">متن را برای خواندن وارد کنید</string>
+    <string name="speak">بخوان</string>
+    <string name="stop">توقف</string>
+    <string name="enable_engine">فعال‌سازی موتور</string>
+    <string name="select_voice">انتخاب صدا</string>
+    <string name="pace">سرعت گفتار</string>
+    <string name="pitch">زیر و بمی صدا</string>
+    <string name="denoise">کاهش نویز</string>
+    <string name="vowelizer">حرکت‌گذاری خودکار (شکلها)</string>
+    <string name="save">ذخیره</string>
+    <string name="about">درباره NabraTTS</string>
+    <string name="voice_default">صدای پیش‌فرض</string>
+    <string name="voice_arabic_1">نَوّار</string>
+    <string name="voice_arabic_2">قَيس</string>
+    <string name="voice_arabic_3">رُقَيَّة</string>
+    <string name="voice_arabic_4">زَيْنَب</string>
+
+    <string name="nav_drawer_label">منوی کناری</string>
+    <string name="nav_drawer_open">باز کردن منوی کناری</string>
+    <string name="nav_drawer_close">بستن منوی کناری</string>
+
+    <string name="about_description">NabraTTS یک سرویس تبدیل متن به گفتار متن‌باز است که توسط تیم Planet Blind Tech توسعه یافته و در حال حاضر از مدل Nipponjo TTS Arabic پشتیبانی می‌کند.</string>
+    <string name="btn_youtube">ما را در YouTube دنبال کنید</string>
+    <string name="btn_youtube_desc">باز کردن کانال Planet Blind Tech در یوتیوب</string>
+    <string name="btn_telegram">ما را در Telegram دنبال کنید</string>
+    <string name="btn_telegram_desc">باز کردن کانال Planet Blind Tech در تلگرام</string>
+    <string name="btn_email">با ما تماس بگیرید</string>
+    <string name="btn_email_desc">ارسال ایمیل به تیم Planet Blind Tech</string>
+
+    <string name="model_management">مدیریت مدل‌ها</string>
+    <string name="download">دانلود</string>
+    <string name="delete">حذف</string>
+    <string name="model_quality">کیفیت صدا</string>
+    <string name="quality_22k">۲۲۰۵۰ هرتز (کیفیت استاندارد)</string>
+    <string name="quality_44k">۴۴۱۰۰ هرتز (کیفیت بالا)</string>
+    <string name="models_missing">مدل‌ها یافت نشدند. لطفاً برای شروع دانلود کنید.</string>
+    <string name="downloading_models">در حال دانلود مدل‌ها…</string>
+    <string name="download_complete">دانلود با موفقیت انجام شد.</string>
+    <string name="download_error">خطا در دانلود مدل‌ها.</string>
+    <string name="choose_quality">کیفیت مورد نظر را برای شروع انتخاب کنید:</string>
+    <string name="status_downloaded">دانلود شده</string>
+    <string name="status_missing">ناموجود</string>
+    <string name="select_model">انتخاب مدل</string>
+
+    <!-- Dictionary -->
+    <string name="dictionary">فرهنگ لغت</string>
+    <string name="dict_search_hint">جستجو…</string>
+    <string name="dict_add">افزودن ورودی</string>
+    <string name="dict_edit">ویرایش</string>
+    <string name="dict_delete">حذف</string>
+    <string name="dict_cancel">لغو</string>
+    <string name="dict_original">اصطلاح نادرست</string>
+    <string name="dict_replacement">تصحیح</string>
+    <string name="dict_empty">هنوز ورودی در فرهنگ لغت وجود ندارد.\nبرای ایجاد یکی روی \"افزودن\" بزنید.</string>
+</resources>

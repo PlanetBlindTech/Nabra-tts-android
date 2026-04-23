@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NabraTTS</string>
+    <string name="tts_service_label">NabraTTS</string>
+    <string name="settings">Configuración</string>
+    <string name="enter_text">Ingrese texto para leer</string>
+    <string name="speak">Hablar</string>
+    <string name="stop">Detener</string>
+    <string name="enable_engine">Activar motor</string>
+    <string name="select_voice">Seleccionar voz</string>
+    <string name="pace">Velocidad de habla</string>
+    <string name="pitch">Tono</string>
+    <string name="denoise">Reducción de ruido</string>
+    <string name="vowelizer">Vocalización automática (Shakkelha)</string>
+    <string name="save">Guardar</string>
+    <string name="about">Acerca de NabraTTS</string>
+    <string name="voice_default">Voz predeterminada</string>
+    <string name="voice_arabic_1">نَوّار</string>
+    <string name="voice_arabic_2">قَيس</string>
+    <string name="voice_arabic_3">رُقَيَّة</string>
+    <string name="voice_arabic_4">زَيْنَب</string>
+
+    <string name="nav_drawer_label">Menú lateral</string>
+    <string name="nav_drawer_open">Abrir menú lateral</string>
+    <string name="nav_drawer_close">Cerrar menú lateral</string>
+
+    <string name="about_description">NabraTTS es un servicio de síntesis de voz de código abierto, desarrollado por el equipo Planet Blind Tech, que actualmente soporta el modelo Nipponjo TTS Arabic.</string>
+    <string name="btn_youtube">Síguenos en YouTube</string>
+    <string name="btn_youtube_desc">Abrir el canal de Planet Blind Tech en YouTube</string>
+    <string name="btn_telegram">Síguenos en Telegram</string>
+    <string name="btn_telegram_desc">Abrir el canal de Planet Blind Tech en Telegram</string>
+    <string name="btn_email">Contáctenos</string>
+    <string name="btn_email_desc">Enviar correo electrónico al equipo Planet Blind Tech</string>
+
+    <string name="model_management">Gestión de modelos</string>
+    <string name="download">Descargar</string>
+    <string name="delete">Eliminar</string>
+    <string name="model_quality">Calidad de audio</string>
+    <string name="quality_22k">22050 Hz (Calidad estándar)</string>
+    <string name="quality_44k">44100 Hz (Alta calidad)</string>
+    <string name="models_missing">Modelos no encontrados. Por favor descargue para comenzar.</string>
+    <string name="downloading_models">Descargando modelos…</string>
+    <string name="download_complete">Descarga completada exitosamente.</string>
+    <string name="download_error">Error al descargar modelos.</string>
+    <string name="choose_quality">Elige la calidad deseada para comenzar:</string>
+    <string name="status_downloaded">Descargado</string>
+    <string name="status_missing">Faltante</string>
+    <string name="select_model">Seleccionar modelo</string>
+
+    <!-- Dictionary -->
+    <string name="dictionary">Diccionario</string>
+    <string name="dict_search_hint">Buscar…</string>
+    <string name="dict_add">Agregar entrada</string>
+    <string name="dict_edit">Editar</string>
+    <string name="dict_delete">Eliminar</string>
+    <string name="dict_cancel">Cancelar</string>
+    <string name="dict_original">Término incorrecto</string>
+    <string name="dict_replacement">Corrección</string>
+    <string name="dict_empty">No hay entradas en el diccionario.\nToque \"Agregar\" para crear una.</string>
+</resources>

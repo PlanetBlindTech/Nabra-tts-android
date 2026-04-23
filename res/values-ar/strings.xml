@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NabraTTS</string>
+    <string name="tts_service_label">NabraTTS</string>
+    <string name="settings">الإعدادات</string>
+    <string name="enter_text">أدخل النص هنا</string>
+    <string name="speak">تحويل إلى صوت</string>
+    <string name="stop">إيقاف</string>
+    <string name="processing">جاري المعالجة…</string>
+    <string name="enable_engine">الانتقال إلى إعدادات تحويل النص إلى كلام</string>
+    <string name="select_voice">اختر الصوت</string>
+    <string name="pace">سرعة النطق</string>
+    <string name="pitch">طبقة الصوت</string>
+    <string name="denoise">إزالة  الضوضاء</string>
+    <string name="vowelizer">التشكيل</string>
+    <string name="save">حفظ</string>
+    <string name="about">حول nabratts</string>
+    <string name="voice_default">الصوت الافتراضي</string>
+    <string name="voice_arabic_1">نَوّار</string>
+    <string name="voice_arabic_2">قَيس</string>
+    <string name="voice_arabic_3">رُقَيَّة</string>
+    <string name="voice_arabic_4">زَيْنَب</string>
+
+    <!-- Accessibility -->
+    <string name="nav_drawer_label">القائمة الجانبية</string>
+    <string name="nav_drawer_open">فتح القائمة الجانبية</string>
+    <string name="nav_drawer_close">إغلاق القائمة الجانبية</string>
+
+    <!-- About Screen -->
+    <string name="about_description">NabraTTS هي خدمة تتيح استخدام نماذج تحويل النص إلى كلام مفتوحة المصدر.
+تم تطوير هذه الخدمة من طرف فريق كوكب المكفوفين التقني.
+تدعم هذه الخدمة حالياً نموذج Nipponjo TTS Arabic.</string>
+    <string name="btn_youtube">تابعنا على YouTube</string>
+    <string name="btn_youtube_desc">تابعنا على youtube</string>
+    <string name="btn_telegram">تابعنا على Telegram</string>
+    <string name="btn_telegram_desc">تابعنا على telegrame</string>
+    <string name="btn_email">اتصل بنا</string>
+    <string name="btn_email_desc">اتصل بنا</string>
+
+    <!-- Model Management -->
+    <string name="model_management">إدارة النماذج</string>
+    <string name="download">تحميل</string>
+    <string name="delete">حذف</string>
+    <string name="model_quality">جودة الصوت</string>
+    <string name="quality_22k">22050 هرتز (جودة قياسية)</string>
+    <string name="quality_44k">44100 هرتز (جودة عالية)</string>
+    <string name="models_missing">النماذج غير موجودة. يرجى التحميل للبدء.</string>
+    <string name="downloading_models">جاري تحميل النماذج…</string>
+    <string name="download_complete">اكتمل التحميل بنجاح.</string>
+    <string name="download_error">حدث خطأ أثناء تحميل النماذج.</string>
+    <string name="choose_quality">اختر الجودة :</string>
+    <string name="status_downloaded">تم التحميل</string>
+    <string name="status_missing">غير موجود</string>
+    <string name="mixer_model">Mixer tts</string>
+    <string name="vocos_model">Vocos</string>
+    <string name="shakkelha_model">shakkelha</string>
+    <string name="word_by_word">تقسيم الجُمَل (مستحسن)</string>
+    <string name="select_model">اختر النموذج</string>
+    <string name="pitch_mul">مضاعفة طبقة الصوت (Pitch Mul)</string>
+    <string name="pitch_mul_desc">مضاعفة تعديل طبقة الصوت</string>
+
+    <!-- Dictionary -->
+    <string name="dictionary">القاموس</string>
+    <string name="dict_search_hint">بحث…</string>
+    <string name="dict_add">إضافة</string>
+    <string name="dict_edit">تعديل</string>
+    <string name="dict_delete">حذف</string>
+    <string name="dict_cancel">إلغاء</string>
+    <string name="dict_original">المصطلح الخاطئ</string>
+    <string name="dict_replacement">التصحيح</string>
+    <string name="dict_empty">لا توجد مصطلحات في القاموس بعد</string>
+</resources>
