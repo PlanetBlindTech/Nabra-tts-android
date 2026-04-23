@@ -1,7 +1,7 @@
 # NabraTTS
 
 نبرة هو محرك TTS مفتوح المصدر، تم تطويره بواسطة فريق كوكب المكفوفين التقني.
-يعتمد المحرك حالياً على نماذج Nipponjo (https://github.com/nipponjo/tts_arabic) المخصصة لتحويل النص العربي إلى كلام في الوقت الفعلي.
+يعتمد المحرك حالياً على [نماذج Nipponjo](https://github.com/nipponjo/tts_arabic) المخصصة لتحويل النص العربي إلى كلام في الوقت الفعلي.
 
 ---
 
@@ -15,6 +15,8 @@
 ---
 
 ## كيفية الاستخدام
+
+سنشرح هنا طريقة الاستخدام باختصار، ولمزيد من التفاصيل شاهد [شرح التطبيق على YouTube](https://youtu.be/UneTsxunSqw?si=yLyAbsYbIuiqo2tz)
 
 1. قم بتحميل وتثبيت التطبيق على جهاز Android.
 2. افتح التطبيق، وستظهر نافذة تحميل النماذج.
@@ -46,9 +48,9 @@
 
 ## تابعنا
 
-* YouTube: https://youtube.com/@planetblindtech?si=PLR4cp13TihMeBNH
-* Telegram: https://t.me/mohammad_loay222
-* البريد الإلكتروني: planetblindtec@gmail.com
+* [قناتنا على YouTube](https://youtube.com/@planetblindtech?si=PLR4cp13TihMeBNH)
+* [قناتنا على Telegram](https://t.me/mohammad_loay222)
+* [البريد الإلكتروني](mailto:planetblindtec@gmail.com)
 
 ---
 
