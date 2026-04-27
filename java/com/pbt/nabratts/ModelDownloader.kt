@@ -15,7 +15,7 @@ class ModelDownloader {
         private const val GITHUB_OWNER   = "mabdulhakim248-crypto"
         private const val GITHUB_REPO    = "nabratts-models"
         private const val RELEASE_TAG    = "v1.0"
-        private const val GH_TOKEN       = "YOUR_GHP_TOKEN"
+        private const val GH_TOKEN       = "YOUR_GITHUB_TOKEN"
         private const val GITHUB_API     = "api.github.com"
         private const val MIN_FILE_BYTES = 1_000_000L
         private const val CONNECT_TIMEOUT = 30_000
