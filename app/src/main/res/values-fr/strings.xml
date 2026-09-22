@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NabraTTS</string>
+    <string name="tts_service_label">NabraTTS</string>
+    <string name="settings">Paramètres</string>
+    <string name="enter_text">Entrez le texte à lire</string>
+    <string name="speak">Lire</string>
+    <string name="stop">Arrêter</string>
+    <string name="processing">Traitement en cours…</string>
+    <string name="enable_engine">Activer le moteur</string>
+    <string name="select_voice">Choisir la voix</string>
+    <string name="pace">Vitesse de lecture</string>
+    <string name="pitch">Hauteur</string>
+    <string name="denoise">Réduction du bruit</string>
+    <string name="vowelizer">Vocalisation automatique</string>
+    <string name="save">Enregistrer</string>
+    <string name="about">À propos de NabraTTS</string>
+    <string name="voice_default">Voix par défaut</string>
+    <string name="voice_arabic_1">نَوّار</string>
+    <string name="voice_arabic_2">قَيس</string>
+    <string name="voice_arabic_3">رُقَيَّة</string>
+    <string name="voice_arabic_4">زَيْنَب</string>
+
+    <string name="nav_drawer_label">Menu latéral</string>
+    <string name="nav_drawer_open">Ouvrir le menu latéral</string>
+    <string name="nav_drawer_close">Fermer le menu latéral</string>
+
+    <string name="about_description">NabraTTS est un service de synthèse vocale open source, développé par l\'équipe Planet Blind Tech, supportant actuellement le modèle Nipponjo TTS Arabic.</string>
+    <string name="btn_youtube">Suivez-nous sur YouTube</string>
+    <string name="btn_youtube_desc">Ouvrir la chaîne Planet Blind Tech sur YouTube</string>
+    <string name="btn_telegram">Suivez-nous sur Telegram</string>
+    <string name="btn_telegram_desc">Ouvrir la chaîne Planet Blind Tech sur Telegram</string>
+    <string name="btn_email">Contactez-nous</string>
+    <string name="btn_email_desc">Envoyer un e-mail à l\'équipe Planet Blind Tech</string>
+
+    <!-- Model Management -->
+    <string name="model_management">Gestion des modèles</string>
+    <string name="download">Télécharger</string>
+    <string name="delete">Supprimer</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="downloading">Téléchargement en cours…</string>
+    <string name="model_quality">Qualité audio</string>
+    <string name="quality_22k">22050 Hz (Qualité standard)</string>
+    <string name="quality_44k">44100 Hz (Haute qualité)</string>
+    <string name="models_missing">Modèles introuvables. Veuillez télécharger pour commencer.</string>
+    <string name="models_not_found_prompt">Aucun modèle trouvé. Voulez-vous les télécharger ?</string>
+    <string name="downloading_models">Téléchargement en cours…</string>
+    <string name="download_complete">Téléchargement terminé avec succès.</string>
+    <string name="download_error">Erreur lors du téléchargement des modèles.</string>
+    <string name="choose_quality">Choisissez la qualité souhaitée pour commencer :</string>
+    <string name="status_downloaded">Téléchargé</string>
+    <string name="status_missing">Manquant</string>
+    <string name="nipponjo_standard_quality">NIPPONJO TTS, Qualité Standard.</string>
+    <string name="nipponjo_high_quality">NIPPONJO TTS, Haute Qualité.</string>
+    <string name="model_confirm_download_std">NIPPONJO TTS, Qualité Standard, prend en charge 4 voix arabes. Voulez-vous le télécharger ?</string>
+    <string name="model_confirm_download_high">NIPPONJO TTS, Haute Qualité, prend en charge 4 voix arabes. Voulez-vous le télécharger ?</string>
+    <string name="model_confirm_delete_std">NIPPONJO TTS, Qualité Standard, prend en charge 4 voix arabes. Voulez-vous le supprimer ?</string>
+    <string name="model_confirm_delete_high">NIPPONJO TTS, Haute Qualité, prend en charge 4 voix arabes. Voulez-vous le supprimer ?</string>
+    <string name="model_status_downloaded_action">État : Téléchargé. Appuyez pour supprimer.</string>
+    <string name="model_status_missing_action">État : Introuvable. Appuyez pour télécharger.</string>
+    <string name="no_qualities_downloaded">Aucune qualité téléchargée</string>
+
+    <string name="pitch_mul">Multiplicateur de hauteur</string>
+    <string name="pitch_mul_desc">Multiplication de l\'ajustement de la hauteur</string>
+    <string name="mixer_model">Mixer TTS</string>
+    <string name="mixer_model_desc">Modèle principal de synthèse vocale</string>
+    <string name="vocos_model">Vocodeur Vocos</string>
+    <string name="vocos_22k_model">Vocos 22050 Hz (Qualité standard)</string>
+    <string name="vocos_22k_desc">Vocodeur rapide et léger adapté à tous les appareils</string>
+    <string name="vocos_44k_model">Vocos 44100 Hz (Haute qualité)</string>
+    <string name="vocos_44k_desc">Vocodeur haute définition pour un son plus clair</string>
+    <string name="rawi_model">Modèle de vocalisation</string>
+    <string name="rawi_model_desc">Modèle de diacritisation automatique de l\'arabe</string>
+    <string name="confirm_delete_title">Confirmer la suppression</string>
+    <string name="confirm_delete_msg">Êtes-vous sûr de vouloir supprimer le modèle %s ?</string>
+    <string name="word_by_word">Synthèse phrase par phrase (Latence réduite)</string>
+    <string name="pause_sukoon_title">Sukūn de pause</string>
+    <string name="read_emojis_title">Lire les émojis</string>
+    <string name="select_model">Sélectionner le modèle</string>
+
+    <!-- Dictionary -->
+    <string name="dictionary">Dictionnaire</string>
+    <string name="dict_search_hint">Rechercher…</string>
+    <string name="dict_add">Ajouter une entrée</string>
+    <string name="dict_edit">Modifier</string>
+    <string name="dict_delete">Supprimer</string>
+    <string name="dict_cancel">Annuler</string>
+    <string name="dict_original">Terme incorrect</string>
+    <string name="dict_replacement">Correction</string>
+    <string name="dict_empty">Aucune entrée dans le dictionnaire.\nAppuyez sur \"Ajouter\" pour en créer une.</string>
+</resources>

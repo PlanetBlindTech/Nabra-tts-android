@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/settings_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:title="@string/settings"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Enable Engine Button (moved from MainActivity) -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_enable_engine"
+                style="@style/Widget.Nabra.Button.Outlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:text="@string/enable_engine"
+                android:contentDescription="@string/enable_engine"
+                app:icon="@drawable/ic_record_voice"
+                app:iconGravity="textStart" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginBottom="12dp" />
+
+            <!-- Pace -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/pace"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:importantForAccessibility="no" />
+
+            <SeekBar
+                android:id="@+id/seek_pace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="150"
+                android:progress="50"
+                android:contentDescription="@string/pace" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Pitch Add -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/pitch"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:importantForAccessibility="no" />
+
+            <SeekBar
+                android:id="@+id/seek_pitch_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="400"
+                android:progress="200"
+                android:contentDescription="@string/pitch" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Denoise -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/denoise"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:importantForAccessibility="no" />
+
+            <SeekBar
+                android:id="@+id/seek_denoise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="300"
+                android:progress="50"
+                android:contentDescription="@string/denoise" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Vowelizer -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_vowelizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/vowelizer"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Word by Word -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_word_by_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/word_by_word"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Pause Sukoon (تسكين أواخر الكلمات) -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_pause_sukoon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/pause_sukoon_title"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Read Emojis (نطق الرموز التعبيرية) -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_read_emojis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/read_emojis_title"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/dark_divider" android:layout_marginVertical="12dp" />
+
+            <!-- Quality Selector -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/model_quality"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spinner_quality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_card"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/model_quality" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
